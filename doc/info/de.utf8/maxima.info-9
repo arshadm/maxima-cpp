@@ -1,0 +1,191 @@
+This is maxima.info, produced by makeinfo version 4.13 from
+/home/vttoth/dev/maxima/doc/info/de.utf8//include-maxima.de.texi.
+
+Das ist ein Texinfo Maxima Manual
+
+   Copyright 1994,2001 William F. Schelter
+
+START-INFO-DIR-ENTRY
+* Maxima: (maxima).     Ein Computer Algebra System.
+END-INFO-DIR-ENTRY
+
+
+File: maxima.info,  Node: Glossar,  Next: Index der Variablen und Funktionen,  Prev: zeilberger,  Up: Top
+
+78 Glossar
+**********
+
+Das Glossar stellt den deutschen Übersetzungen die englischen Begriffe
+gegenüber und erläutert die Begriffe.
+
+_Ausdruck - expression_
+     Jede beliebige Zeichenfolge, die Maxima als Eingabe versteht und
+     die von        Maxima verarbeitet werden kann.
+
+_Aussage - predicate_
+     Ausdrücke, die zu den booleschen Werten `true' oder `false'
+     auswerten.
+
+_Aussagefunktion - predicate function_
+
+
+_Auswertung - evaluation_
+     Ausdrücke werden zunächst ausgewertet.  Funktionen werden
+     aufgerufen,        die Werte von Variablen werden eingesetzt.  Die
+     Auswertung wird von        der Vereinfachung (Simplification)
+     unterschieden und wird vor der        Vereinfachung ausgeführt.
+
+_Begrenzungszeichen - delimiter_
+     Das Zeichen das auf der linken und rechten Seite zum Beispiel eine
+           Liste `[ ... ]' begrenzt.
+
+_Bezeichner - identifier_
+     Der Name einer Variablen oder Funktion.
+
+_Eigenschaft - property_
+
+
+_Expansion - expansion_
+     Mathematische Ausdrücke werden ausmultipliziert.
+
+_Dateiausgabe - file output_
+
+
+_Dateieingabe - file input_
+
+
+_Dreiecksmatrix - triangular matrix_
+
+
+_Fehlersuche - debugging_
+
+
+_Flag - flag_
+     Boolesche Variablen mit den Werten `true' oder `false', die zur
+        Steuerung des Programms vom Nutzer gesetzt werden können.
+
+_Koeffizientenmatrix, erweitert - augmented coefficient matrix_
+     Die erweiterte Koeffizientenmatrix entsteht, wenn an die
+     Koeffizientenmatrix eines Gleichungssystems eine Spalte mit der
+     rechten        Seite des Gleichungssystems angefügt wird.
+
+_Kommandozeile - command line_
+
+
+_Konsole Ein- und Ausgabe - console interaction_
+
+
+_Marke - label_
+     Die Eingaben und Ausgaben werden von Maxima in globale Variablen,
+     die als        Marken bezeichnet werden, mit den Namen `%i' und
+     `%o' sowie        `%t' für Zwischenergebnisse abgelegt.  Die
+     Marken werden        fortlaufend numeriert.
+
+_Matrix, schwachbesetzt - sparse matrix_
+
+
+_Musterargument - pattern argument_
+
+
+_Mustervariable - pattern variable_
+     Mustervariable werden mit der Funktion `matchdeclare' definiert.
+          Mustervariable werden bei der Definition von Mustern
+     verwendet.  Den        Mustervariablen werden bei Erkennung eines
+     Musters die TeilausdrÃ¼cke        zugewiesen, fÃ¼r die eine
+     Ãbereinstimmung vorliegt.  Von den        Mustervariablen sind die
+     Musterargumente zu unterscheiden.
+
+_Optionsvariable - option variable_
+
+
+_Muster - pattern_
+
+
+_Musterabgleich - pattern matching_
+
+
+_N-ary-Operator - n-ary operator_
+     Ein N-ary-Operator kann ein beliebige Anzahl an Operanden haben.
+          Beispiele fÃ¼r N-Ary-Operatoren sind die Addition `+' und die
+           Multiplikation `*'.
+
+_Pipe - pipe_
+     Eine Pipe (englisch für Rohr, Röhre) bezeichnet einen gepufferten
+     uni-        oder bidirektionalen Datenstrom zwischen zwei
+     Prozessen nach dem âFIFOâ        (First In - First Out)-Prinzip.
+
+_Programmfehler - bug_
+
+
+_Prompt - prompt_
+     Kann auch als Eingabeaufforderung übersetzt werden.
+
+_Regelpaket - rule package_
+
+
+_Schlüsselwort - keyword_
+
+
+_Sitzungsverwaltung - session management_
+
+
+_Stammfunktion - antiderivative_
+
+
+_Standardwert - default value_
+
+
+_Stufenmatrix - echelon matrix_
+
+
+_Substantivform - noun form_
+     Die Substantivform ist eine nicht ausgewerteter aber dennoch
+     vereinfachter Ausdruck.
+
+_Systemvariable - system variable_
+     Systemvariablen enthalten von Maxima verwaltete globale Werte.
+        Systemvariablen sollten vom Nutzer, auch wenn es möglich ist,
+     nicht        genutzt werden.
+
+_Teilausdruck - subexpression_
+
+
+_Token - token_
+     Ein Token ist ein Stück Text, das die lexikalische Grundeinheit
+     ist,        die von einem Parser behandelt wird.
+
+_Umgebung - enviroment_
+
+
+_Verbform - verb form_
+     Die Verbform wird zunächst ausgewertet und erst dann vereinfacht.
+
+_Vereinfachung - simplification_
+     Mathematischen Funktionen, algebraische Ausdrücke oder Gleichungen
+           werden nach der Auswertung vereinfacht.  Ein Großteil dieser
+           Vereinfachungen geschieht automatisch.  Für weitere
+     Vereinfachungen gibt        es spezielle Funktionen und eine
+     Vielzahl von Schaltern, mit denen        gezielt bestimmte
+     Ergebnisse erzielt werden können.
+
+_Zeichenkette - string_
+
+
+_Zwischenraumzeichen - whitespace_
+     Zwischenraumzeichen ist eine Bezeichnung für Zeichen in einem
+     Text, die        im Texteditor oder Textverarbeitungsprogramm
+     nicht dargestellt        werden und dennoch (Speicher-)Platz in
+     Anspruch nehmen.  Sie dienen        vorrangig dazu, Wörter oder
+     Zeilen voneinander abzugrenzen.
+
+_Wortart - part of speech_
+     Beim Einlesen eines Ausdrucks prüft der Parser, ob die Argumente
+     eines        Operators die korrekte Wortart haben.  Maxima kennt
+     die Wortarten        `expr', `clause' und `any'.
+
+
+
+
+Local Variables:
+coding: iso-8859-1
+End:
